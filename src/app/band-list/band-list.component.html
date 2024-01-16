@@ -5,7 +5,7 @@
   <ul class="grid">
     <li *ngFor="let band of bands" class="grid-item">
       <div class="btn-groups">
-        <!-- <button (click)="viewBandDetails(band.id)">View</button> -->
+        <button (click)="viewBandDetails(band.id)">View</button>
         <button (click)="deleteBand(band.id)">Delete</button>
       </div>
       <h3>{{ band.name }}</h3>
